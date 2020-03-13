@@ -11,9 +11,9 @@ npm install react-native-animated-modal
 | Prop  | Description  | Type  | Default  | Required  |
 |---|---|---|---|---|
 | isOpen | Open state of modal. | boolean | false | **YES** |
-| toggleFunc | Changing open state of modal function  | func | 'indigo' | **YES** |
-| easing | Animation easing [Please read](https://reactnative.dev/docs/easing) | string | 'linear' | **NO** |
-| animationTime | Animation running time | number | 750 | **NO** |
+| toggleFunc | Changing open state of modal function.  | func | 'indigo' | **YES** |
+| easing | Animation easing. [Please read](https://reactnative.dev/docs/easing) | string | 'linear' | **NO** |
+| animationTime | Animation running time. | number | 750 | **NO** |
 | width | Width of modal. (device screen width percentage) | number | 80 | **NO** |
 | height | Height of modal. (device screen height percentage) | number | null | **NO** |
 | modalColor | Background color of modal. | string | 'white' | **NO** |
@@ -21,8 +21,8 @@ npm install react-native-animated-modal
 | modalRadius | Border radius value of modal view. (px) | number | 15 | **NO**  |
 | modalStyle | Custom style of modal view. | object | null | **NO**  |
 | isFullScreen | Size of modal view. (full screen or not) | boolean | false | **NO**  |
-| onShow | The function you want to work while modal is turned on | func | - | **NO**  |
-| onClose | The function you want to work while modal is turned off | func | - | **NO**  |
+| onShow | The function you want to work while modal is turned on. | func | - | **NO**  |
+| onClose | The function you want to work while modal is turned off. | func | - | **NO**  |
 
 ## Usage
 ```
