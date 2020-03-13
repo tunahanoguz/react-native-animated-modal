@@ -89,7 +89,8 @@ const Modal = (props) => {
                         borderRadius: modalRadius,
                         transform: [{translateY: modalAnimatedValue}]
                     },
-                    height !== null && {height: height},
+                    height !== null && !isFullScreen && {height: height},
+                    isFullScreen && {height: '100%', borderRadius: 0,},
                     modalStyle,
             ]}>
                 {children}
@@ -104,7 +105,7 @@ Modal.defaultProps = {
     width: 80,
     height: null,
     modalColor: 'white',
-    backdropColor: 'rgba(0, 0, 0, 0.6)',
+    backdropColor: 'rgba(0, 0, 0, 0.8)',
     modalRadius: 15,
     modalStyle: null,
     isFullScreen: false,
