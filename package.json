@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tunahanoguz/react-native-animated-absolute-buttons.git"
+    "url": "git+https://github.com/tunahanoguz/react-native-animated-modal.git"
   },
   "keywords": [
     "react",
@@ -21,7 +21,7 @@
   ],
   "author": "Tunahan Oğuz",
   "license": "MIT",
-  "homepage": "https://github.com/tunahanoguz/react-native-animated-absolute-buttons#readme",
+  "homepage": "https://github.com/tunahanoguz/react-native-animated-modal#readme",
   "peerDependencies": {
     "react": "*",
     "react-native": "*"
